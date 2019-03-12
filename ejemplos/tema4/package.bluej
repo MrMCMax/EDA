@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=100
+objectbench.width=700
+package.editor.height=400
+package.editor.width=560
+package.editor.x=383
+package.editor.y=160
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+target1.editor.height=700
+target1.editor.width=1201
+target1.editor.x=141
+target1.editor.y=27
+target1.height=50
+target1.name=UsosMapOrdenado
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=ClassTarget
+target1.typeParameters=
+target1.width=130
+target1.x=100
+target1.y=90

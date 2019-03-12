@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=int\ puntoCruce(int[])
+comment0.text=\ Sea\ v\ un\ array\ de\ enteros\ que\ se\ ajustan\ \n\ \ al\ perfil\ de\ una\ curva\ continua\ y\ monotona\ creciente,\ \n\ \ tal\ que\:\ v[0]\ <\ 0\ &&\ v[v.length-1]\ >\ 0\n\ \ Existe\ una\ unica\ posici\u00F3n\ k\ de\ v,\ 0\ <\=\ k\ <\ v.length-1,\ \n\ \ tal\ que\:\ entre\ v[k]\ y\ v[k+1]\ la\ funcion\ vale\ 0,\ \n\ \ i.e.\ tal\ que\:\ v[k]\ <\=\ 0\ &&\ v[k+1]\ >\ 0\ \n\ \ \n\ \ Dise\u00F1ar\ el\ mejor\ (coste\ logaritmico)\ metodo\ recursivo\ que\ calcule\ k\n
+comment1.params=v\ i\ j
+comment1.target=int\ puntoCruce(int[],\ int,\ int)
+comment2.params=v
+comment2.target=int\ minimoCC(int[])
+comment2.text=\ Sea\ v\ un\ array\ de\ enteros\ positivos\ que\ se\ ajustan\ \n\ \ al\ perfil\ de\ una\ curva\ concava,\ \n\ \ i.e.\ existe\ una\ unica\ posici\u00F3n\ k\ de\ v,\ 0\ <\=\ k\ <v.length,\ tal\ que\:\n\ \ para\ todo\ j\ \:\ 0\ <\=\ j\ <\ k\ \ \ \ \ \ \:\ v[j]\ >\ v[j+1]\ \ &&\ \ \n\ \ para\ todo\ j\ \:\ k\ <\ j\ <v.length\ \:\ v[j-1]\ <\ v[j]\n\ \ \n\ \ Dise\u00F1ar\ el\ mejor\ (coste\ logaritmico)\ metodo\ recursivo\ que\ calcule\ k\n
+comment3.params=v\ i\ j
+comment3.target=int\ minimoCC(int[],\ int,\ int)
+comment4.params=v
+comment4.target=int\ valYposIguales(int[])
+comment4.text=\ Busqueda\ de\ la\ componente\ de\ un\ array\ con\ valor\ igual\ a\ posicion.\ \n\ \n\ \ Dise\u00F1ar\ un\ metodo\ recursivo\ que,\ con\ el\ menor\ coste\ posible,\ \n\ \ determine\ si\ un\ array\ v\ de\ enteros,\ \n\ \ ordenado\ ascendentemente\ y\ sin\ elementos\ repetidos,\ \n\ \ contiene\ alguna\ componente\ cuyo\ valor\ es\ igual\ a\ la\ posicion\ que\ ocupa.\ \n\ \ Si\ existe\ tal\ componente\ el\ metodo\ devuelve\ su\ posicion,\ y\ sino\ -1.\ \ \ \ \n
+comment5.params=v\ i\ j
+comment5.target=int\ valYposIguales(int[],\ int,\ int)
+comment6.params=v\ x\ y
+comment6.target=boolean\ vecinas(java.lang.String[],\ java.lang.String,\ java.lang.String)
+comment6.text=\ Busqueda\ de\ dos\ String\ en\ posiciones\ consecutivas\ de\ un\ array.\n\ \n\ \ Dise\u00F1ar\ un\ m\u00E9todo\ recursivo\ que,\ con\ el\ menor\ coste\ posible,\ \n\ \ compruebe\ si\ dos\ String\ x\ e\ y\ (tal\ que\ x\ es\ menor\ estricto\ que\ y)\ \n\ \ ocupan\ posiciones\ consecutivas\ en\ un\ array\ de\ String\ v,\ \n\ \ ordenado\ ascendentemente\ y\ sin\ elementos\ repetidos.\ \n
+comment7.params=v\ x\ y\ i\ j
+comment7.target=boolean\ vecinas(java.lang.String[],\ java.lang.String,\ java.lang.String,\ int,\ int)
+numComments=8

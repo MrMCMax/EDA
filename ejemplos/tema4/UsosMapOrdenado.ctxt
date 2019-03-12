@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=m
+comment0.target=librerias.estructurasDeDatos.modelos.ListaConPI\ entradas(librerias.estructurasDeDatos.modelos.MapOrdenado)
+comment0.text=\ Dise\u00C3\u00B1ar\ un\ metodo\ estatico,\ generico\ e\ iterativo\ entradas\ \n\ \ que\ devuelva\ una\ ListaConPI\ con\ las\ Entradas\ de\ un\ Map\ m\ \n\ \ ordenadas\ ascendentemente.\ \n
+comment1.params=v
+comment1.target=void\ mapSort(java.lang.Comparable[])
+comment1.text=\ Dise\u00C3\u00B1ar\ un\ metodo\ estatico,\ generico\ e\ iterativo\ mapSort\ \n\ \ que,\ con\ la\ ayuda\ de\ un\ MapOrdenado,\ \n\ \ ordene\ los\ elementos\ (Comparable)\ de\ un\ array\ v.\ \ \n
+comment2.params=v\ k
+comment2.target=boolean\ hayDosQueSuman(java.lang.Integer[],\ int)
+comment2.text=\ Dise\u00C3\u00B1ar\ un\ metodo\ estatico,\ generico\ e\ iterativo\ hayDosQueSuman\ \n\ \ que,\ dados\ un\ array\ v\ de\ enteros\ y\ un\ entero\ k,\ \n\ \ determine\ si\ existen\ en\ v\ dos\ numeros\ cuya\ suma\ sea\ k.\ \n\ \ Usar\ un\ Map\ Ordenado\ como\ EDA\ auxiliar.\n
+numComments=3

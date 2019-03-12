@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.params=a
+comment0.target=void\ insertionSort(java.lang.Comparable[])
+comment1.params=array
+comment1.target=NaturalSort(java.lang.Integer[])
+numComments=2

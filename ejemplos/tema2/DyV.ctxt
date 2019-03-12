@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=v
+comment0.target=java.lang.Object\ mayoritario(java.lang.Object[])
+comment1.params=v\ i\ f
+comment1.target=java.lang.Object\ mayoritario(java.lang.Object[],\ int,\ int)
+comment2.params=array\ mayor\ i\ f
+comment2.target=java.lang.Object\ validate(java.lang.Object[],\ java.lang.Object,\ int,\ int)
+comment3.params=v\ e\ i\ f
+comment3.target=int\ count(java.lang.Object[],\ java.lang.Object,\ int,\ int)
+numComments=4

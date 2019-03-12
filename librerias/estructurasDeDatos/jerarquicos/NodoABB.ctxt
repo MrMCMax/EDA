@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=e
+comment0.target=NodoABB(java.lang.Object)
+comment0.text=\ construye\ el\ Nodo\ Hoja\ e\ de\ un\ ABB,\ i.e.\ un\ Nodo\ con\ dato\ e,\ \r\ntamanyo\ 1\ y\ sin\ hijos\ *
+numComments=1

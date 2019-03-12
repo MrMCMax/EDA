@@ -1,0 +1,24 @@
+#BlueJ package file
+objectbench.height=100
+objectbench.width=353
+package.editor.height=400
+package.editor.width=560
+package.editor.x=327
+package.editor.y=218
+package.numDependencies=0
+package.numTargets=1
+package.showExtends=true
+package.showUses=true
+target1.editor.height=700
+target1.editor.width=1029
+target1.editor.x=88
+target1.editor.y=19
+target1.height=50
+target1.name=ListaConPIPlusMap
+target1.naviview.expanded=true
+target1.showInterface=false
+target1.type=InterfaceTarget
+target1.typeParameters=<E>
+target1.width=160
+target1.x=60
+target1.y=90

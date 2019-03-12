@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.params=c\ v
+comment0.target=EntradaMap(java.lang.Comparable,\ java.lang.Object)
+comment0.text=crea\ una\ Entrada\ (c,\ v)\ de\ un\ Map\ Ordenado
+comment1.params=
+comment1.target=java.lang.Comparable\ getClave()
+comment1.text=devuelve\ la\ clave\ de\ una\ Entrada\ de\ un\ Map\ Ordenado
+comment2.params=
+comment2.target=java.lang.Object\ getValor()
+comment2.text=devuelve\ el\ valor\ de\ una\ Entrada\ de\ un\ Map\ Ordenado
+comment3.params=nueva
+comment3.target=void\ setClave(java.lang.Comparable)
+comment3.text=actualiza\ a\ nueva\ la\ clave\ de\ una\ Entrada\ de\ un\ Map\ Ordenado
+comment4.params=nuevo
+comment4.target=void\ setValor(java.lang.Object)
+comment4.text=actualiza\ a\ nuevo\ el\ valor\ de\ una\ Entrada\ de\ un\ Map\ Ordenado
+comment5.params=otra
+comment5.target=boolean\ equals(java.lang.Object)
+comment5.text=\ comprueba\ si\ una\ Entrada\ es\ igual\ a\ otra,\ \r\ni.e.\ si\ son\ iguales\ sus\ claves
+comment6.params=otra
+comment6.target=int\ compareTo(EntradaMap)
+comment6.text=\ devuelve\ el\ resultado\ de\ la\ comparacion\ de\ una\ Entrada\ con\ otra,\ \r\ni.e.\ de\ la\ comparacion\ de\ sus\ claves
+comment7.params=
+comment7.target=java.lang.String\ toString()
+comment7.text=\ devuelve\ un\ String\ que\ representa\ una\ Entrada\ de\ un\ Map\ Ordenado\r\n\ \ con\ un\ cierto\ formato,\ i.e.\ el\ del\ par\ formado\ por\ su\ clave\ y\ valor\ \r\n
+numComments=8
