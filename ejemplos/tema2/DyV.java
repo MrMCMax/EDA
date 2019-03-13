@@ -47,4 +47,44 @@ public class DyV
         }
         return res;
     }
+    public static <E extends Comparable<E>> E minimo(E[] array) {
+        return minimo(array, 0, array.length - 1);
+    }
+    
+    private static <E extends Comparable<E>> E minimo(E[] a, int i, int f) {
+        int m = (f + i) / 2; //Mitad del subarray
+        if (a[m - 1].compareTo(a[m]) < 0) {
+            //Curva ascendente, buscar antes
+            return minimo(a, i, m - 1);
+        } else if (a[m - 1].compareTo(a[m]) > 0) {
+            if (a[m].compareTo(a[m + 1]) > 0) {
+                //Curva descendente, buscar más adelante
+                return minimo(a, m + 1, f);
+            } else {
+                //Minimo
+                return a[m];
+            }
+        } else {
+            return null;
+        }
+    }
+    
+    public static int valYPosIguales(int[] array) {
+        return valYPosIguales(array, 0, array.length - 1);
+    }
+    
+    private static int valYPosIguales(int[] a, int i, int f) {
+        if (i == f) {
+            return a[i] == i ? i : -1;
+        } else {
+            int m = (f + i) / 2;
+            if (a[m] == m) {
+                return m;
+            } else if (a[m] > m) {
+                return valYPosIguales(a, i, m - 1);
+            } else {
+                return valYPosIguales(a, m + 1, f);
+            }
+        }
+    }
 }
